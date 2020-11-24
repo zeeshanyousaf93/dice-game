@@ -1,0 +1,14 @@
+.msg {
+  text-align: center;
+  font-size: 3em;
+  margin: 0.5em 0;
+}
+.dice {
+  max-width: 40em;
+  padding: 0 1em;
+  margin: 0 auto;
+}
+.face {
+  border: 0.25em solid black;
+  border-radius: 0.5em;
+}
