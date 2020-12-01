@@ -1,3 +1,6 @@
+body {
+  text-align: center;
+}
 .msg {
   text-align: center;
   font-size: 3em;
@@ -7,11 +10,22 @@
   max-width: 40em;
   padding: 0 1em;
   margin: 0 auto;
+  display: flex;
 }
 .face {
   border: 0.25em solid black;
   border-radius: 0.5em;
+  flex-grow: 1;
 }
+.roll {
+  border: none;
+  background-color: darkslateblue;
+  color: white;
+  padding: 0.5em 1em;
+  margin: 1em 0;
+}
+
+
 
 /* if (screen && width >= 400) {
 
