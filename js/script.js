@@ -1,3 +1,11 @@
+// This function returns a random Number between 1 (inclusive) and the argument passed to the function
+// If no argument is passed, 6 is set, ie, returns a number between and including 1 to 6
+// 		For example: 
+//    getRandomDiceRoll() will return either 1, 2, 3, 4, 5, 6
+const getRandomDiceRoll = function(sides=6) {
+  return Math.floor( Math.random() * sides ) + 1
+}
+
 // Here's a test roll, check the console!
 console.log(getRandomDiceRoll())
 

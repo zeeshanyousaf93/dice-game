@@ -2,7 +2,7 @@
 
 ## Setup
 - Fork this repository by clicking the "Fork" button in the top-right corner
-- Clone the new repository to your local machine using Git
+- Clone the new repository to your local machine using `git clone {url}`
 
 ## Steps
 1. Complete the steps in the HTML document to build a prototype interface for a dice game
