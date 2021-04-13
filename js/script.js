@@ -24,7 +24,8 @@ const rollTheDice = function () {
   document.getElementsByTagName('body')[0].innerHTML = `
 <p>You rolled: ${diceRoll}</p>
 <img src='./img/dice${diceRoll}.svg' height='200' width='200'/>
-`;
+<p><button type="button" onclick="rollTheDice()" id="roll">Roll</button></p>`;
 }
 
 rollTheDice();
+
